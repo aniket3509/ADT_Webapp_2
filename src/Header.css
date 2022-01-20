@@ -1,0 +1,52 @@
+/*  src/Title.css  */
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* padding: 1em; */
+    /* margin-bottom: 1em; */
+    background-color: rgb(0, 38, 59);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    /* font-style: "Lucida Console"; */
+    font-family: "Times New Roman", Serif;
+  }
+
+.h{
+text-align: center;
+font-family: "Times New Roman", Serif;
+}
+
+.di2{
+    display: inline;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+
+  .column {
+    float: left;
+    width: 50%;
+    margin: auto;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .center {
+    /* margin: auto; */
+    padding-left: 190px;
+  }
